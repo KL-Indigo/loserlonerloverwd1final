@@ -9,3 +9,26 @@
 main {
     background-image: url(/images/WhiteOnBlackGrid.png);
 }
+
+h2 {
+    font-family: 'Special Elite', cursive;
+}
+
+h3, p, figcaption {
+    font-family: 'Gruppo', cursive;
+}
+
+figcaption {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.product {
+    border: solid darkred 2em;
+}
